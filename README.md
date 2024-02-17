@@ -1,2 +1,2 @@
-# xu-site
-X University's website
+![X University's logo](https://iili.io/JEMl1un.md.png)
+# Documentation
