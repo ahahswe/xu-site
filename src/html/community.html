@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/ico" href="/src/images/favicon.ico">
+    <title>Community | X University</title>
+    <style>
+        ::-webkit-scrollbar {
+            width: 15px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #343a40;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #495057;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #6c757d;
+        }
+        @media (max-width: 600px) {
+            nav {
+                padding: 5px;
+            }
+            li {
+                margin: 0 5px;
+            }
+        }
+        @font-face {
+            font-family: "Inter";
+            src: url(/src/fonts/Inter-Regular.ttf);
+        }
+        ::selection {
+            background: #5fa8d3;
+        }
+        ::-moz-selection {
+            background: #5fa8d3
+        }
+        body,
+        h1,
+        nav,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: #212529;
+            color: #fff;
+            padding: 20px;
+        }
+        nav {
+            background-color: #343a40;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+        li {
+            margin: 0 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 17px;
+        }
+        nav a.active {
+            background-color: #495057;
+            color: #5fa8d3;
+        }
+        nav a:hover {
+            background-color: #495057;
+        }
+        .logo-position {
+            text-align: center;
+        }
+        .logo {
+            width: 325px;
+        }
+        .main-content {
+            background-color: #343a40;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            text-align: justify;
+        }
+        .hash {
+            color: #5fa8d3;
+            user-select: none;
+        }
+        p {
+            font-size: 20px;
+        }
+        footer {
+            text-align: center;
+            padding-top: 1em;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a class="active" href="community.html">Community</a></li>
+            <li><a href="conduct.html">Conduct</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="main-content">
+            <h1 class="logo-position"><a href="index.html"><img class="logo" src="/src/images/xu-logo-white.png" alt="X University Logo"></a></h1>
+            <h2><span class="hash"># </span>Community</h2>
+            <p>
+               Placeholder.
+            </p>
+        </div>
+    </main>
+    <footer>
+        © GNU General Public License v3.0 
+    </footer>
+</body>
+</html>
